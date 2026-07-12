@@ -17,6 +17,9 @@ export class Home {
 
   add5000() {
     this.targetNumber += 5000;
-    console.log(this.targetNumber);
+  }
+
+  sub5000() {
+    this.targetNumber -= 5000;
   }
 }
